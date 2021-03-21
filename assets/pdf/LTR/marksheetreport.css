@@ -1,0 +1,120 @@
+body {
+	font-family: 'helvetica';
+	font-size:12px;
+	color:#707478;
+}
+
+p {
+	margin: 2px;
+}
+.pdf-report-logo {
+    float: left;
+    display: inline; 
+    width:200px;
+}
+
+.logo{ 
+	width:50px;
+	height:50px;
+	text-align:center;
+}
+
+
+.title{
+	font-size: 15px;
+	text-align: center;
+}
+
+.title-desc {
+	font-size: 12px;
+	text-align: center;
+}
+
+.reportPage-header {
+	text-align: center;
+}
+.school_name{
+	text-align: left; 
+}
+.school_name h2{
+    padding-left: 20px;
+    padding-top: 15px;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 30px;
+}
+.address{
+	text-align: left;
+	margin-left: 42%;
+	font-size: 16px;
+}
+.pull-left { 
+	float: left; 
+	text-align: left; 
+	width: 35%;
+	margin: 0px;
+	padding: 10px 0px;
+}
+.teacher-signature{
+	margin-top: 100px!important;
+	text-align: center;
+	width: 35%;
+	float: left;
+}
+.head-teacher-signature{
+	margin-top: -80px!important;
+	width: 35%;
+	text-align: center;
+	float: right;
+
+}
+.pull-right {
+	float: right; 
+	text-align: right;
+	width: 35%;
+	margin: 0px;
+	padding: 10px 0px;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.footer {
+	padding-top: 10px;
+	text-align: center;
+}
+
+.flogo {
+	width: 30px;
+	height: 30px;
+}
+
+.copyright {
+	font-size: 10px
+}
+
+.notfound{
+	padding: 20px 0px;
+	text-align:center;
+	border:1px solid #ddd;
+}
+
+.marksheetreult {
+    padding-top: 8px !important;
+}
+
+.marksheetreult .span {
+    width:80px;
+    display: inline-inline;
+    line-height: 24px;
+    float: left;
+}
+
+.examName {
+    text-align: center;
+    margin : 0px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+}
