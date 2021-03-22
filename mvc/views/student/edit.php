@@ -57,7 +57,7 @@ if (form_error('dob')) {
 
 ?>
                         <label for="dob" class="control-label">
-                            <?=$this->lang->line("student_dob")?>
+                            <?=$this->lang->line("student_dob")?> <span class="text-red">*</span>
                         </label>
                         <div class="nob">
                             <?php $dob = '';if ($student->dob) {$dob = date("d-m-Y", strtotime($student->dob));}?>

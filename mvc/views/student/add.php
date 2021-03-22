@@ -45,7 +45,7 @@
 
                     <div class="form-group <?php if (form_error('dob')) {echo 'has-error';}?>">
                         <label for="dob" class="control-label">
-                            <?=$this->lang->line("student_dob")?>
+                            <?=$this->lang->line("student_dob")?> <span class="text-red">*</span>
                         </label>
                         <div class="">
                             <input type="text" class="form-control" id="dob" name="dob" value="<?=set_value('dob')?>" >

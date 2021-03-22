@@ -59,7 +59,7 @@ date_default_timezone_set('Asia/Dhaka');
 require_once __DIR__ . '/mvc/helpers/site_helper.php';
 
 if (!preg_match("/^(127\.0\.|10\.0\.).+/i", getIpAddress())) {
-    $_SERVER['CI_ENV'] = 'production';
+    $_SERVER['CI_ENV'] = 'development';
 }
 // else {
 //     $_SERVER['CI_ENV'] = 'production';
